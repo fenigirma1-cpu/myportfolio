@@ -2,90 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Feni Girma Portfolio</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Fenet Girma | Portfolio</title>
 
     <link rel="stylesheet" href="port.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <h2>Fenet Girma</h2>
-        <ul>
+<!-- NAVIGATION -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Fenet Girma</h2>
+        <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-        <!-- Home Section -->
-    <section id="home"><div>
-        <h1> HELLO,I'm Fenet Girma</h1>
-      <p>  <b>welcome to my portfilio</b><br>
-            <br>
-            I am computer Science Student | Java & Python Developer</p>
-</div>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Fenet Girma</span></h1>
+        <p>Mobile App Developer | Web Developer | Graphic Designer</p>
+        <a href="#contact" class="btn">Let's Work Together</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="fen.jpg" alt="Fenet Girma">
+    </div>
+</section>
+
+<<section id="about" class="about">
+    <div class="about-container">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am passionate and creative 
+                technology enthusiast specializing in mobile app development, 
+                web development, and graphic design.
+            </p>
+
+            <p>
+                I enjoy transforming ideas into real digital products. 
+                Whether it's building responsive websites, developing modern 
+                mobile applications, or designing clean and professional visuals, 
+                I focus on creating solutions that are both functional and beautiful.
+            </p>
+
+            <p>
+                I am continuously learning new technologies and improving my skills 
+                to stay updated in the fast-growing tech industry. My goal is to 
+                create impactful digital experiences and work on innovative projects 
+                that solve real-world problems.
+            </p>
+
         
-    <img src="fen.jpg" alt="fenet girma">
-
-    </section>
-
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="comp.jpg" alt="computer Science">
-        <p>I am a passionate Computer Science student interested in software development and system design.</p>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills</h2>
-                    <img src="css-3.png" alt="css">           
-            <img src="HTML-logo.png" alt="html">
-            <img src="js.jpg" alt="JavaScript">
-            <img src="Python-Logo.png" alt="Python">
-        <ul>
-             <li>HTML </li>
-
-             <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-
-        </ul>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div>
-            <img src="rel.jpg" alt="result">
-            <h3>Student Result Management System</h3>
-            <p>Java-based system to manage student results using file storage.</p>
         </div>
-    </section>
 
-    <!-- Contact -->
-   <footer>
-  <h2>contact me</h2>
+    </div>
+</section>
 
-  <div class="social-icons">
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>My Services</h2>
 
-    <a href="#" id="github">
-      <i class="fa-brands fa-github"></i>
-    </a>
+    <div class="services-container">
 
-    <a href="#" id="linkedin">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
+        <div class="service-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Mobile App Development</h3>
+            <p>Modern Android apps using React Native.</p>
+        </div>
 
-    <a href="#" id="email">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
+        <div class="service-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Responsive and professional websites.</p>
+        </div>
 
-  </div>
+        <div class="service-card">
+            <i class="fa-solid fa-palette"></i>
+            <h3>Graphic Design</h3>
+            <p>Logos, posters, and brand identity design.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Built using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Mobile App UI</h3>
+            <p>Designed and developed a simple task manager app.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+    <h2>Contact Me</h2>
+    <div class="social-icons">
+        <a href="https://github.com/fenigirma1-cpu" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:jigtotame@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    </div>
+    <p>© 2026 Fenet Girma</p>
 </footer>
-    <script src="script.js"></script>
+
 </body>
 </html>
